@@ -1,0 +1,6 @@
+framework module Pods_Hanyang_University {
+  umbrella header "Pods-Hanyang University-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_Hanyang_UniversityUITests {
+  umbrella header "Pods-Hanyang UniversityUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AC7B7B8A3A7BE6072E9B1ED /* Pods_Hanyang_UniversityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF4C3C81B8945807F4F1FDB /* Pods_Hanyang_UniversityTests.framework */; };
+		5540A5B7CA03D971EE51A81C /* Pods_Hanyang_UniversityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F885F7359CCB8FAA0B14A7 /* Pods_Hanyang_UniversityUITests.framework */; };
+		5D9E4389E7E9B254C610965A /* Pods_Hanyang_University.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF2E6B34F8C006EB6DF9E3F /* Pods_Hanyang_University.framework */; };
+		C5AFCD421EC4439800312B78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AFCD411EC4439800312B78 /* AppDelegate.swift */; };
+		C5AFCD441EC4439800312B78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AFCD431EC4439800312B78 /* ViewController.swift */; };
+		C5AFCD471EC4439800312B78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5AFCD451EC4439800312B78 /* Main.storyboard */; };
+		C5AFCD491EC4439800312B78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5AFCD481EC4439800312B78 /* Assets.xcassets */; };
+		C5AFCD4C1EC4439800312B78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5AFCD4A1EC4439800312B78 /* LaunchScreen.storyboard */; };
+		C5AFCD571EC4439800312B78 /* Hanyang_UniversityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AFCD561EC4439800312B78 /* Hanyang_UniversityTests.swift */; };
+		C5AFCD621EC4439800312B78 /* Hanyang_UniversityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AFCD611EC4439800312B78 /* Hanyang_UniversityUITests.swift */; };
+		C5AFCD711EC4467300312B78 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5AFCD701EC4467300312B78 /* GoogleService-Info-2.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5AFCD531EC4439800312B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5AFCD361EC4439800312B78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5AFCD3D1EC4439800312B78;
+			remoteInfo = "Hanyang University";
+		};
+		C5AFCD5E1EC4439800312B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5AFCD361EC4439800312B78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5AFCD3D1EC4439800312B78;
+			remoteInfo = "Hanyang University";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1214CB2B0FE64722B0BC77AC /* Pods-Hanyang UniversityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hanyang UniversityUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hanyang UniversityUITests/Pods-Hanyang UniversityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		135725B929B45D362FF45A78 /* Pods-Hanyang University.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hanyang University.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hanyang University/Pods-Hanyang University.debug.xcconfig"; sourceTree = "<group>"; };
+		45F885F7359CCB8FAA0B14A7 /* Pods_Hanyang_UniversityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hanyang_UniversityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		625F10865618809A520FF12F /* Pods-Hanyang University.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hanyang University.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hanyang University/Pods-Hanyang University.release.xcconfig"; sourceTree = "<group>"; };
+		6E8F536291ADF54AFE914922 /* Pods-Hanyang UniversityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hanyang UniversityUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hanyang UniversityUITests/Pods-Hanyang UniversityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1F9F383E00DA2A4300F597E /* Pods-Hanyang UniversityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hanyang UniversityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hanyang UniversityTests/Pods-Hanyang UniversityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBECD13C92C08B471ED9CEEE /* Pods-Hanyang UniversityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hanyang UniversityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hanyang UniversityTests/Pods-Hanyang UniversityTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5AFCD3E1EC4439800312B78 /* Hanyang University.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hanyang University.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AFCD411EC4439800312B78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5AFCD431EC4439800312B78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5AFCD461EC4439800312B78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5AFCD481EC4439800312B78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5AFCD4B1EC4439800312B78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5AFCD4D1EC4439800312B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5AFCD521EC4439800312B78 /* Hanyang UniversityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hanyang UniversityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AFCD561EC4439800312B78 /* Hanyang_UniversityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hanyang_UniversityTests.swift; sourceTree = "<group>"; };
+		C5AFCD581EC4439800312B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5AFCD5D1EC4439800312B78 /* Hanyang UniversityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hanyang UniversityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AFCD611EC4439800312B78 /* Hanyang_UniversityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hanyang_UniversityUITests.swift; sourceTree = "<group>"; };
+		C5AFCD631EC4439800312B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5AFCD6F1EC443EE00312B78 /* Hanyang University.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hanyang University.entitlements"; sourceTree = "<group>"; };
+		C5AFCD701EC4467300312B78 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		CAF2E6B34F8C006EB6DF9E3F /* Pods_Hanyang_University.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hanyang_University.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF4C3C81B8945807F4F1FDB /* Pods_Hanyang_UniversityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hanyang_UniversityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5AFCD3B1EC4439800312B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9E4389E7E9B254C610965A /* Pods_Hanyang_University.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AFCD4F1EC4439800312B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC7B7B8A3A7BE6072E9B1ED /* Pods_Hanyang_UniversityTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AFCD5A1EC4439800312B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5540A5B7CA03D971EE51A81C /* Pods_Hanyang_UniversityUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72A4DD39C08138CAE54DBC70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAF2E6B34F8C006EB6DF9E3F /* Pods_Hanyang_University.framework */,
+				FBF4C3C81B8945807F4F1FDB /* Pods_Hanyang_UniversityTests.framework */,
+				45F885F7359CCB8FAA0B14A7 /* Pods_Hanyang_UniversityUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		760FA6E26C66927A3839EB5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				135725B929B45D362FF45A78 /* Pods-Hanyang University.debug.xcconfig */,
+				625F10865618809A520FF12F /* Pods-Hanyang University.release.xcconfig */,
+				B1F9F383E00DA2A4300F597E /* Pods-Hanyang UniversityTests.debug.xcconfig */,
+				BBECD13C92C08B471ED9CEEE /* Pods-Hanyang UniversityTests.release.xcconfig */,
+				6E8F536291ADF54AFE914922 /* Pods-Hanyang UniversityUITests.debug.xcconfig */,
+				1214CB2B0FE64722B0BC77AC /* Pods-Hanyang UniversityUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5AFCD351EC4439800312B78 = {
+			isa = PBXGroup;
+			children = (
+				C5AFCD401EC4439800312B78 /* Hanyang University */,
+				C5AFCD551EC4439800312B78 /* Hanyang UniversityTests */,
+				C5AFCD601EC4439800312B78 /* Hanyang UniversityUITests */,
+				C5AFCD3F1EC4439800312B78 /* Products */,
+				760FA6E26C66927A3839EB5D /* Pods */,
+				72A4DD39C08138CAE54DBC70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5AFCD3F1EC4439800312B78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5AFCD3E1EC4439800312B78 /* Hanyang University.app */,
+				C5AFCD521EC4439800312B78 /* Hanyang UniversityTests.xctest */,
+				C5AFCD5D1EC4439800312B78 /* Hanyang UniversityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5AFCD401EC4439800312B78 /* Hanyang University */ = {
+			isa = PBXGroup;
+			children = (
+				C5AFCD701EC4467300312B78 /* GoogleService-Info-2.plist */,
+				C5AFCD6F1EC443EE00312B78 /* Hanyang University.entitlements */,
+				C5AFCD411EC4439800312B78 /* AppDelegate.swift */,
+				C5AFCD431EC4439800312B78 /* ViewController.swift */,
+				C5AFCD451EC4439800312B78 /* Main.storyboard */,
+				C5AFCD481EC4439800312B78 /* Assets.xcassets */,
+				C5AFCD4A1EC4439800312B78 /* LaunchScreen.storyboard */,
+				C5AFCD4D1EC4439800312B78 /* Info.plist */,
+			);
+			path = "Hanyang University";
+			sourceTree = "<group>";
+		};
+		C5AFCD551EC4439800312B78 /* Hanyang UniversityTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5AFCD561EC4439800312B78 /* Hanyang_UniversityTests.swift */,
+				C5AFCD581EC4439800312B78 /* Info.plist */,
+			);
+			path = "Hanyang UniversityTests";
+			sourceTree = "<group>";
+		};
+		C5AFCD601EC4439800312B78 /* Hanyang UniversityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5AFCD611EC4439800312B78 /* Hanyang_UniversityUITests.swift */,
+				C5AFCD631EC4439800312B78 /* Info.plist */,
+			);
+			path = "Hanyang UniversityUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5AFCD3D1EC4439800312B78 /* Hanyang University */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5AFCD661EC4439800312B78 /* Build configuration list for PBXNativeTarget "Hanyang University" */;
+			buildPhases = (
+				EED0D17185273A0C74F80D9C /* [CP] Check Pods Manifest.lock */,
+				C5AFCD3A1EC4439800312B78 /* Sources */,
+				C5AFCD3B1EC4439800312B78 /* Frameworks */,
+				C5AFCD3C1EC4439800312B78 /* Resources */,
+				04CDC38C2511EA7B9C56A258 /* [CP] Embed Pods Frameworks */,
+				C38B43085AF1FE5D7DA847B2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hanyang University";
+			productName = "Hanyang University";
+			productReference = C5AFCD3E1EC4439800312B78 /* Hanyang University.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5AFCD511EC4439800312B78 /* Hanyang UniversityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5AFCD691EC4439800312B78 /* Build configuration list for PBXNativeTarget "Hanyang UniversityTests" */;
+			buildPhases = (
+				85A3F29488ACFA1E27727026 /* [CP] Check Pods Manifest.lock */,
+				C5AFCD4E1EC4439800312B78 /* Sources */,
+				C5AFCD4F1EC4439800312B78 /* Frameworks */,
+				C5AFCD501EC4439800312B78 /* Resources */,
+				2CB29C7F5F1D145472FD6123 /* [CP] Embed Pods Frameworks */,
+				7B62D72CF897D08540427F62 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5AFCD541EC4439800312B78 /* PBXTargetDependency */,
+			);
+			name = "Hanyang UniversityTests";
+			productName = "Hanyang UniversityTests";
+			productReference = C5AFCD521EC4439800312B78 /* Hanyang UniversityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5AFCD5C1EC4439800312B78 /* Hanyang UniversityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5AFCD6C1EC4439800312B78 /* Build configuration list for PBXNativeTarget "Hanyang UniversityUITests" */;
+			buildPhases = (
+				C001B30B0720CAE3C2AD3231 /* [CP] Check Pods Manifest.lock */,
+				C5AFCD591EC4439800312B78 /* Sources */,
+				C5AFCD5A1EC4439800312B78 /* Frameworks */,
+				C5AFCD5B1EC4439800312B78 /* Resources */,
+				7C6D1913775D12EF7BDF354D /* [CP] Embed Pods Frameworks */,
+				78E9D872D57D3D6F65AFA022 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5AFCD5F1EC4439800312B78 /* PBXTargetDependency */,
+			);
+			name = "Hanyang UniversityUITests";
+			productName = "Hanyang UniversityUITests";
+			productReference = C5AFCD5D1EC4439800312B78 /* Hanyang UniversityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5AFCD361EC4439800312B78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AHN;
+				TargetAttributes = {
+					C5AFCD3D1EC4439800312B78 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9S6RTY4596;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					C5AFCD511EC4439800312B78 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9S6RTY4596;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5AFCD3D1EC4439800312B78;
+					};
+					C5AFCD5C1EC4439800312B78 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9S6RTY4596;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5AFCD3D1EC4439800312B78;
+					};
+				};
+			};
+			buildConfigurationList = C5AFCD391EC4439800312B78 /* Build configuration list for PBXProject "Hanyang University" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5AFCD351EC4439800312B78;
+			productRefGroup = C5AFCD3F1EC4439800312B78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5AFCD3D1EC4439800312B78 /* Hanyang University */,
+				C5AFCD511EC4439800312B78 /* Hanyang UniversityTests */,
+				C5AFCD5C1EC4439800312B78 /* Hanyang UniversityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5AFCD3C1EC4439800312B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AFCD4C1EC4439800312B78 /* LaunchScreen.storyboard in Resources */,
+				C5AFCD491EC4439800312B78 /* Assets.xcassets in Resources */,
+				C5AFCD711EC4467300312B78 /* GoogleService-Info-2.plist in Resources */,
+				C5AFCD471EC4439800312B78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AFCD501EC4439800312B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AFCD5B1EC4439800312B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04CDC38C2511EA7B9C56A258 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hanyang University/Pods-Hanyang University-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CB29C7F5F1D145472FD6123 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hanyang UniversityTests/Pods-Hanyang UniversityTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78E9D872D57D3D6F65AFA022 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hanyang UniversityUITests/Pods-Hanyang UniversityUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B62D72CF897D08540427F62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hanyang UniversityTests/Pods-Hanyang UniversityTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C6D1913775D12EF7BDF354D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hanyang UniversityUITests/Pods-Hanyang UniversityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85A3F29488ACFA1E27727026 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C001B30B0720CAE3C2AD3231 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B43085AF1FE5D7DA847B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hanyang University/Pods-Hanyang University-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EED0D17185273A0C74F80D9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5AFCD3A1EC4439800312B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AFCD441EC4439800312B78 /* ViewController.swift in Sources */,
+				C5AFCD421EC4439800312B78 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AFCD4E1EC4439800312B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AFCD571EC4439800312B78 /* Hanyang_UniversityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AFCD591EC4439800312B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AFCD621EC4439800312B78 /* Hanyang_UniversityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5AFCD541EC4439800312B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5AFCD3D1EC4439800312B78 /* Hanyang University */;
+			targetProxy = C5AFCD531EC4439800312B78 /* PBXContainerItemProxy */;
+		};
+		C5AFCD5F1EC4439800312B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5AFCD3D1EC4439800312B78 /* Hanyang University */;
+			targetProxy = C5AFCD5E1EC4439800312B78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5AFCD451EC4439800312B78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5AFCD461EC4439800312B78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5AFCD4A1EC4439800312B78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5AFCD4B1EC4439800312B78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5AFCD641EC4439800312B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5AFCD651EC4439800312B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5AFCD671EC4439800312B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 135725B929B45D362FF45A78 /* Pods-Hanyang University.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Hanyang University/Hanyang University.entitlements";
+				DEVELOPMENT_TEAM = 9S6RTY4596;
+				INFOPLIST_FILE = "Hanyang University/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AHN.HYU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C5AFCD681EC4439800312B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 625F10865618809A520FF12F /* Pods-Hanyang University.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Hanyang University/Hanyang University.entitlements";
+				DEVELOPMENT_TEAM = 9S6RTY4596;
+				INFOPLIST_FILE = "Hanyang University/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AHN.HYU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C5AFCD6A1EC4439800312B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1F9F383E00DA2A4300F597E /* Pods-Hanyang UniversityTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9S6RTY4596;
+				INFOPLIST_FILE = "Hanyang UniversityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AHN.Hanyang-UniversityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hanyang University.app/Hanyang University";
+			};
+			name = Debug;
+		};
+		C5AFCD6B1EC4439800312B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBECD13C92C08B471ED9CEEE /* Pods-Hanyang UniversityTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9S6RTY4596;
+				INFOPLIST_FILE = "Hanyang UniversityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AHN.Hanyang-UniversityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hanyang University.app/Hanyang University";
+			};
+			name = Release;
+		};
+		C5AFCD6D1EC4439800312B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E8F536291ADF54AFE914922 /* Pods-Hanyang UniversityUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9S6RTY4596;
+				INFOPLIST_FILE = "Hanyang UniversityUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AHN.Hanyang-UniversityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Hanyang University";
+			};
+			name = Debug;
+		};
+		C5AFCD6E1EC4439800312B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1214CB2B0FE64722B0BC77AC /* Pods-Hanyang UniversityUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9S6RTY4596;
+				INFOPLIST_FILE = "Hanyang UniversityUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AHN.Hanyang-UniversityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Hanyang University";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5AFCD391EC4439800312B78 /* Build configuration list for PBXProject "Hanyang University" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AFCD641EC4439800312B78 /* Debug */,
+				C5AFCD651EC4439800312B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5AFCD661EC4439800312B78 /* Build configuration list for PBXNativeTarget "Hanyang University" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AFCD671EC4439800312B78 /* Debug */,
+				C5AFCD681EC4439800312B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5AFCD691EC4439800312B78 /* Build configuration list for PBXNativeTarget "Hanyang UniversityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AFCD6A1EC4439800312B78 /* Debug */,
+				C5AFCD6B1EC4439800312B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5AFCD6C1EC4439800312B78 /* Build configuration list for PBXNativeTarget "Hanyang UniversityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AFCD6D1EC4439800312B78 /* Debug */,
+				C5AFCD6E1EC4439800312B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5AFCD361EC4439800312B78 /* Project object */;
+}
